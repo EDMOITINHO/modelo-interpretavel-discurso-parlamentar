@@ -1,0 +1,16 @@
+component,parameter,value
+preprocessing,target_legislatures,"52,53,54,55,56,57"
+preprocessing,min_words_raw,50
+preprocessing,min_tokens_clean,20
+preprocessing,tokenizer,regex
+word2vec_general,vector_size,300
+word2vec_general,window,8
+word2vec_general,epochs,10
+word2vec_general,negative,10
+word2vec_general,sample,1e-4
+word2vec_general,seed,42
+ideological_divergence,min_count,10
+ideological_divergence,max_anchors,15000
+adversarial_audit,window_tokens_each_side,12
+validation,target_per_group,150
+validation,random_seed,42

@@ -1,0 +1,13 @@
+campo,descricao,observacao
+id_legislatura,Número da legislatura,52 a 57
+partido_norm,Sigla partidária normalizada,Gerada no pré-processamento
+bloco_ideologico,Bloco ideológico agregado,"Left, Centre, Right ou outro/ausente conforme mapeamento"
+n_words_raw,Número de palavras no texto bruto,Usado na filtragem mínima de 50 palavras
+n_tokens,Número de tokens após a limpeza,Usado na filtragem mínima de 20 tokens
+governo,"Informação de governo, quando disponível",Campo preservado se existir na fonte
+id_deputado,"Identificador do parlamentar, quando disponível",Campo preservado se existir na fonte
+nome_deputado,"Nome do parlamentar, quando disponível",Campo preservado se existir na fonte
+uf,"Unidade federativa, quando disponível",Campo preservado se existir na fonte
+texto_raw,Texto bruto do discurso,Não previsto para publicação integral no GitHub
+texto_limpo,Texto após pré-processamento,Não previsto para publicação integral no GitHub
+data/partido/hash/duplicata,Campos originais detectados no corpus,Mantidos quando presentes na entrada

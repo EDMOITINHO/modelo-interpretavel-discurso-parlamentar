@@ -1,0 +1,26 @@
+axis,axis_label,pair,pair_context,n_terms,mean_cosine_distance,median_cosine_distance,max_cosine_distance
+governability_and_coalition,Governability and coalition politics,52-53,pre-2011 baseline,10,0.1585964015748933,0.13732492528587859,0.4212126701889577
+governability_and_coalition,Governability and coalition politics,53-54,pre-2011 to Dilma I,10,0.18312273157613077,0.14383258161994988,0.5028412839589746
+governability_and_coalition,Governability and coalition politics,54-55,Dilma I to impeachment legislature,10,0.20754343224269314,0.1760632094919056,0.4699371651227437
+governability_and_coalition,Governability and coalition politics,55-56,post-impeachment / Temer to Bolsonaro,10,0.26878371132435397,0.230712889597832,0.5990002950322179
+governability_and_coalition,Governability and coalition politics,56-57,Bolsonaro to Lula III,10,0.2927953832213955,0.2587049578655387,0.6604599909810871
+institutional_legitimacy,Institutional legitimacy and democratic order,52-53,pre-2011 baseline,12,0.16492849632954867,0.16122333030564528,0.2256187037609323
+institutional_legitimacy,Institutional legitimacy and democratic order,53-54,pre-2011 to Dilma I,12,0.1675881715543394,0.16478391464763037,0.2171957576822165
+institutional_legitimacy,Institutional legitimacy and democratic order,54-55,Dilma I to impeachment legislature,12,0.19361581309108225,0.18487762398272164,0.2614487433315612
+institutional_legitimacy,Institutional legitimacy and democratic order,55-56,post-impeachment / Temer to Bolsonaro,12,0.23439313157503527,0.2192641053250596,0.3608135803846087
+institutional_legitimacy,Institutional legitimacy and democratic order,56-57,Bolsonaro to Lula III,12,0.26693429361840815,0.2488730290693035,0.4486544744515586
+judicialization_and_checks,Judicialization and institutional checks,52-53,pre-2011 baseline,7,0.22047722228311548,0.1858355995185034,0.3969593847243369
+judicialization_and_checks,Judicialization and institutional checks,53-54,pre-2011 to Dilma I,7,0.21529468006853247,0.1767389846445274,0.4318802196450306
+judicialization_and_checks,Judicialization and institutional checks,54-55,Dilma I to impeachment legislature,7,0.25100232402674943,0.2579113197104237,0.4446454723868303
+judicialization_and_checks,Judicialization and institutional checks,55-56,post-impeachment / Temer to Bolsonaro,7,0.25328870677222476,0.2166910829629087,0.3719088165522701
+judicialization_and_checks,Judicialization and institutional checks,56-57,Bolsonaro to Lula III,7,0.29503594953624435,0.2999859074407929,0.4050781294256887
+parliamentary_arena,Parliamentary arena and institutional venue,52-53,pre-2011 baseline,7,0.14136715651702644,0.1368075447700659,0.2100196130466877
+parliamentary_arena,Parliamentary arena and institutional venue,53-54,pre-2011 to Dilma I,7,0.1458364417624031,0.1437772874745467,0.1818998161812453
+parliamentary_arena,Parliamentary arena and institutional venue,54-55,Dilma I to impeachment legislature,7,0.16343819953698507,0.1534396100533206,0.2528485761791937
+parliamentary_arena,Parliamentary arena and institutional venue,55-56,post-impeachment / Temer to Bolsonaro,7,0.2131209828307515,0.2047026755099417,0.3295124435468847
+parliamentary_arena,Parliamentary arena and institutional venue,56-57,Bolsonaro to Lula III,7,0.20492371835546885,0.2047385142659632,0.2555430281923952
+security_and_military,Security and military presence,52-53,pre-2011 baseline,4,0.14335891334698242,0.12001008482577785,0.2415371433491391
+security_and_military,Security and military presence,53-54,pre-2011 to Dilma I,4,0.1409986562314877,0.12184434105153015,0.2251019157589804
+security_and_military,Security and military presence,54-55,Dilma I to impeachment legislature,4,0.15195334863477425,0.13909002548505855,0.2140985831398668
+security_and_military,Security and military presence,55-56,post-impeachment / Temer to Bolsonaro,4,0.1820818317220983,0.1693594041597833,0.2418783060995579
+security_and_military,Security and military presence,56-57,Bolsonaro to Lula III,4,0.21728515559768768,0.18765631411976563,0.3225343392393125

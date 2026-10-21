@@ -1,0 +1,9 @@
+﻿column,allowed_values,meaning
+label_1,attack; defense; neutral; ambiguous,"Primary label indicating whether the group is attacked, defended, mentioned neutrally, or unclear."
+stance_direction,against_group; defending_group; against_aggressor; against_state; unclear,Direction of the discourse stance in relation to the target group and adversary.
+discourse_function,denunciation; policy_demand; criminalization; moral_panic; institutional_critique; symbolic_recognition; descriptive; unclear,Political-discursive function performed by the excerpt.
+political_frame,rights_frame; security_frame; economic_frame; moral_religious_frame; institutional_frame; territorial_frame; identity_frame; unclear,Dominant interpretive frame used in the excerpt.
+conflict_axis,government_opposition; group_vs_state; moral_cultural_conflict; labor_capital; center_periphery; institutional_conflict; no_conflict; unclear,Main axis of political conflict represented in the excerpt.
+tone,accusatory; protective; punitive; solidaristic; alarmist; bureaucratic; celebratory; neutral; unclear,Predominant tone of the excerpt.
+policy_orientation,expand_rights; restrict_rights; punish_aggressor; allocate_resources; recognize_group; regulate_behavior; no_policy; unclear,Probable policy orientation implied by the excerpt.
+confidence,high; medium; low,"Confidence level for auxiliary annotations, considering context length and ambiguity."

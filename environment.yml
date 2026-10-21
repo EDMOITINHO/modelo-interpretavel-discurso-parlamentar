@@ -1,0 +1,15 @@
+name: dissertacao-pln
+channels:
+  - conda-forge
+dependencies:
+  - python=3.11
+  - numpy=1.26
+  - scipy=1.13
+  - pandas=2.2
+  - pyarrow
+  - gensim=4.3
+  - scikit-learn
+  - matplotlib
+  - tqdm
+  - requests
+  - tenacity

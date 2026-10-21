@@ -1,0 +1,9 @@
+cff-version: 1.2.0
+message: "Se você utilizar este repositório, cite a dissertação e o repositório."
+title: "Análise do discurso parlamentar brasileiro com métodos de PLN"
+type: software
+authors:
+  - family-names: "dos Anjos"
+    given-names: "Edpaula Moitinho"
+year: 2026
+institution: "Universidade do Estado da Bahia (UNEB)"

@@ -1,0 +1,67 @@
+﻿id_legislatura,theme,speeches_with_theme,n_speeches,speech_share_pct,theme_label
+52,agriculture_food,12492,75496.0,16.54657200381477,Agriculture and food
+52,democracy_institutions,64953,75496.0,86.03502172300519,Democracy and institutions
+52,economy_work_income,36321,75496.0,48.10983363356999,"Economy, work, and income"
+52,education,12951,75496.0,17.15455123450249,Education
+52,environment_climate,10763,75496.0,14.256384444208965,Environment and climate
+52,federalism_municipalities,40834,75496.0,54.08763378192222,Federalism and municipalities
+52,health,8736,75496.0,11.57147398537671,Health
+52,infrastructure_transport_housing,11322,75496.0,14.99682102363039,"Infrastructure, transport, and housing"
+52,rights_citizenship,19219,75496.0,25.456977853131292,Rights and citizenship
+52,security_violence,10547,75496.0,13.970276570944156,Public security and violence
+52,social_protection_inequality,20719,75496.0,27.443838084136907,Social protection and inequality
+53,agriculture_food,9625,82220.0,11.706397470201898,Agriculture and food
+53,democracy_institutions,68095,82220.0,82.82048163463877,Democracy and institutions
+53,economy_work_income,32979,82220.0,40.110678666991,"Economy, work, and income"
+53,education,13397,82220.0,16.294089029433227,Education
+53,environment_climate,11464,82220.0,13.943079542690343,Environment and climate
+53,federalism_municipalities,41327,82220.0,50.26392605205546,Federalism and municipalities
+53,health,9190,82220.0,11.177329117003163,Health
+53,infrastructure_transport_housing,11710,82220.0,14.242276818292387,"Infrastructure, transport, and housing"
+53,rights_citizenship,19570,82220.0,23.801994648504014,Rights and citizenship
+53,security_violence,10896,82220.0,13.252250060812454,Public security and violence
+53,social_protection_inequality,19157,82220.0,23.299683775237167,Social protection and inequality
+54,agriculture_food,10115,82649.0,12.238502583213348,Agriculture and food
+54,democracy_institutions,67438,82649.0,81.59566358939612,Democracy and institutions
+54,economy_work_income,32281,82649.0,39.05794383477114,"Economy, work, and income"
+54,education,13911,82649.0,16.831419617902213,Education
+54,environment_climate,10023,82649.0,12.127188471729845,Environment and climate
+54,federalism_municipalities,42230,82649.0,51.09559704291643,Federalism and municipalities
+54,health,11629,82649.0,14.070345678713595,Health
+54,infrastructure_transport_housing,13201,82649.0,15.972365061888226,"Infrastructure, transport, and housing"
+54,rights_citizenship,20639,82649.0,24.971868988130527,Rights and citizenship
+54,security_violence,10918,82649.0,13.210081186705223,Public security and violence
+54,social_protection_inequality,19667,82649.0,23.795811201587437,Social protection and inequality
+55,agriculture_food,8807,82940.0,10.61851941162286,Agriculture and food
+55,democracy_institutions,66411,82940.0,80.07113576079094,Democracy and institutions
+55,economy_work_income,29095,82940.0,35.07957559681697,"Economy, work, and income"
+55,education,10135,82940.0,12.219676874849288,Education
+55,environment_climate,6451,82940.0,7.777911743428985,Environment and climate
+55,federalism_municipalities,34664,82940.0,41.79406800096455,Federalism and municipalities
+55,health,7440,82940.0,8.970340004822763,Health
+55,infrastructure_transport_housing,8209,82940.0,9.897516276826622,"Infrastructure, transport, and housing"
+55,rights_citizenship,17692,82940.0,21.331082710393055,Rights and citizenship
+55,security_violence,12654,82940.0,15.256812153363878,Public security and violence
+55,social_protection_inequality,16591,82940.0,20.00361707258259,Social protection and inequality
+56,agriculture_food,6247,66901.0,9.33767806161343,Agriculture and food
+56,democracy_institutions,49593,66901.0,74.12893678719301,Democracy and institutions
+56,economy_work_income,22446,66901.0,33.55106799599408,"Economy, work, and income"
+56,education,8424,66901.0,12.591740033781258,Education
+56,environment_climate,6046,66901.0,9.037234122060955,Environment and climate
+56,federalism_municipalities,21776,66901.0,32.54958819748584,Federalism and municipalities
+56,health,12244,66901.0,18.30166963124617,Health
+56,infrastructure_transport_housing,4921,66901.0,7.35564490814786,"Infrastructure, transport, and housing"
+56,rights_citizenship,14321,66901.0,21.406257006621725,Rights and citizenship
+56,security_violence,7714,66901.0,11.530470396556105,Public security and violence
+56,social_protection_inequality,14196,66901.0,21.21941376063138,Social protection and inequality
+57,agriculture_food,4085,49421.0,8.265717002893506,Agriculture and food
+57,democracy_institutions,38585,49421.0,78.07409805548248,Democracy and institutions
+57,economy_work_income,15325,49421.0,31.00908520669351,"Economy, work, and income"
+57,education,5265,49421.0,10.653365978025535,Education
+57,environment_climate,4586,49421.0,9.27945610165719,Environment and climate
+57,federalism_municipalities,19990,49421.0,40.44839238380445,Federalism and municipalities
+57,health,5219,49421.0,10.560288136622084,Health
+57,infrastructure_transport_housing,3597,49421.0,7.278282511482973,"Infrastructure, transport, and housing"
+57,rights_citizenship,13249,49421.0,26.808441755529024,Rights and citizenship
+57,security_violence,8806,49421.0,17.81833633475648,Public security and violence
+57,social_protection_inequality,11205,49421.0,22.672548107079987,Social protection and inequality
