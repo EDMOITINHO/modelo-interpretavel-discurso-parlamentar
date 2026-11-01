@@ -124,4 +124,6 @@ O ambiente computacional está fixado em `environment.yml`, com Python 3.11 e as
 
 **Edpaula Moitinho dos Anjos**  
 Orientador: **Prof. Dr. Marcos Batista Figueredo**  
+Coorientador: **Prof. Dr. Vagner de Souza Fonseca**
+
 Universidade do Estado da Bahia — UNEB
