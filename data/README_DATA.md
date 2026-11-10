@@ -8,9 +8,9 @@ https://dadosabertos.camara.leg.br/api/v2
 
 ## Recorte
 
-- Período: 2003–2023.
+- Período: 2003 a junho de 2026.
 - Legislaturas: 52ª a 57ª.
-- A 57ª legislatura é parcial, limitada aos dados disponíveis até 2023.
+- A 57ª legislatura é parcial, observada de 1º de fevereiro de 2023 a 17 de junho de 2026.
 
 ## Construção do corpus
 

@@ -1,0 +1,10 @@
+﻿categoria,prevalencia_%,top5_termos (% dos sinalizados),sem_genericos_%,termos_retirados
+agricultura_rural,14.7,agricultura (39%); campo (35%); rural (26%); produtores (25%); produtor (14%),,
+empresas_industria,19.7,empresas (48%); empresa (33%); industria (23%); comercio (18%); empresarios (15%),,
+trabalhadores_sindicatos,23.8,trabalhadores (51%); servidores (22%); trabalhador (19%); funcionarios (16%); categoria (13%),,
+servidores_profissoes,16.4,militar (28%); professores (21%); policiais (20%); professor (18%); militares (17%),,
+mulheres_familia_infancia,25.7,familia (37%); familias (28%); mulheres (27%); criancas (23%); mulher (18%),16.5,"familia, familias"
+raca_indigenas_minorias,30.9,pessoas (77%); pessoa (28%); indigenas (8%); deficiencia (5%); negros (4%),6.4,"pessoa, pessoas"
+religiao_moral,26.4,vida (75%); familia (37%); igreja (6%); igrejas (3%); religioso (2%),3.5,"familia, vida"
+territorio_regiao,35.9,municipios (36%); regiao (34%); municipio (27%); prefeito (21%); norte (20%),,
+forcas_seguranca,14.3,policia (48%); militar (32%); forcas (24%); policiais (23%); militares (20%),,

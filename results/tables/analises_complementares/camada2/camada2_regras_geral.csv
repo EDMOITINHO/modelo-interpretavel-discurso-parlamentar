@@ -1,0 +1,5 @@
+﻿regra,agenda_nacional_%,setorizada_%,mistos_%,setorizada_entre_nacionais_%
+R1,86.8,76.5,70.1,80.8
+R2,59.4,50.4,37.8,63.6
+Janela 50 tokens,86.8,76.5,68.9,79.4
+Janela 20 tokens,86.8,76.5,64.7,74.6

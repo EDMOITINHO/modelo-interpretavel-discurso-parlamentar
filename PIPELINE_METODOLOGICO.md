@@ -35,9 +35,9 @@ Os discursos são avaliados por dicionários lexicais em 11 categorias temática
 
 - **R1:** pelo menos um termo da categoria;
 - **R2:** pelo menos dois termos distintos ou três ocorrências totais;
-- **R3:** presença temática sob R1 e densidade igual ou superior à mediana específica da categoria.
+- **R3:** presença temática sob R1 e densidade igual ou superior a um limiar fixo, comum a todas as categorias, de 139,86 ocorrências por 10 mil tokens (mediana global das densidades entre os pares discurso–categoria sinalizados por R1). A versão anterior, com mediana específica por categoria, permanece em `14_dictionary_robustness_check.py`.
 
-A **R2** é utilizada nas análises longitudinais principais.
+A **R2** é utilizada nas análises longitudinais principais. As variações sob R2 também são estimadas com controle do tamanho dos discursos (`notebooks/18_controle_tamanho_discurso.ipynb`).
 
 ## Camada 2 — Mediação setorizada
 
@@ -62,7 +62,22 @@ Os casos selecionados são candidatos à inspeção humana. A classificação ma
 - sementes 7 e 123 como alternativas à semente 42;
 - `min_count` 50 e 100 como limiares alternativos;
 - balanceamento por número de tokens;
-- modelo nulo por divisão intra-legislatura.
+- modelo nulo por divisão intra-legislatura;
+- controle do tamanho dos discursos nas Camadas 1 e 2;
+- Camada 2 sob R2 e janelas de 20 e 50 tokens;
+- linha de base da divergência Esquerda–Direita por embaralhamento de rótulos;
+- estimativa ponderada da proporção de ataques.
+
+## Análises complementares
+
+| Ordem | Notebook | Função principal |
+|---|---|---|
+| 19 | `notebooks/17_R3_limiar_fixo.ipynb` | Calcula a R3 com limiar fixo comum a todas as categorias. |
+| 20 | `notebooks/18_controle_tamanho_discurso.ipynb` | Ajusta as prevalências sob R2 pelo tamanho do discurso. |
+| 21 | `notebooks/19_camada2_versoes_dicionario.ipynb` | Testa a Camada 2 com três versões do dicionário nacional. |
+| 22 | `notebooks/20_camada2_regras_e_janelas.ipynb` | Testa a Camada 2 sob R2 e janelas de 20 e 50 tokens. |
+| 23 | `notebooks/21*_linha_base_divergencia_*.ipynb` | Estima a linha de base da divergência Esquerda–Direita. |
+| 24 | `notebooks/22_saude_anual_razao_chances_termos_genericos.ipynb` | Série anual de saúde, razão de chances, termos genéricos e frequência de termos institucionais. |
 
 ## Produtos do pipeline
 
@@ -70,4 +85,5 @@ Os casos selecionados são candidatos à inspeção humana. A classificação ma
 - `config/`: parâmetros e classificação partidária;
 - `validation/`: amostra, codebook e rótulos manuais;
 - `results/tables/`: resultados agregados;
+- `results/tables/analises_complementares/`: resultados das análises complementares;
 - `figures/`: gráficos finais.
