@@ -35,7 +35,7 @@ Os discursos são avaliados por dicionários lexicais em 11 categorias temática
 
 - **R1:** pelo menos um termo da categoria;
 - **R2:** pelo menos dois termos distintos ou três ocorrências totais;
-- **R3:** presença temática sob R1 e densidade igual ou superior a um limiar fixo, comum a todas as categorias, de 139,86 ocorrências por 10 mil tokens (mediana global das densidades entre os pares discurso–categoria sinalizados por R1). A versão anterior, com mediana específica por categoria, permanece em `14_dictionary_robustness_check.py`.
+- **R3:** presença temática sob R1 e densidade igual ou superior a um limiar fixo, comum a todas as categorias, de 116,28 ocorrências por 10 mil tokens (mediana global das densidades entre os pares discurso–categoria sinalizados por R1). A versão anterior, com mediana específica por categoria, permanece em `14_dictionary_robustness_check.py`.
 
 A **R2** é utilizada nas análises longitudinais principais. As variações sob R2 também são estimadas com controle do tamanho dos discursos (`notebooks/18_controle_tamanho_discurso.ipynb`).
 
@@ -78,6 +78,7 @@ Os casos selecionados são candidatos à inspeção humana. A classificação ma
 | 22 | `notebooks/20_camada2_regras_e_janelas.ipynb` | Testa a Camada 2 sob R2 e janelas de 20 e 50 tokens. |
 | 23 | `notebooks/21*_linha_base_divergencia_*.ipynb` | Estima a linha de base da divergência Esquerda–Direita. |
 | 24 | `notebooks/22_saude_anual_razao_chances_termos_genericos.ipynb` | Série anual de saúde, razão de chances, termos genéricos e frequência de termos institucionais. |
+| 25 | `notebooks/23_camadas1_2_dicionario_final.ipynb` | Calcula os resultados das Camadas 1 e 2 com a versão final dos dicionários. |
 
 ## Produtos do pipeline
 

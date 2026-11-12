@@ -16,6 +16,10 @@ Esta pasta reúne os resultados agregados selecionados da dissertação.
 - robustez dos modelos Word2Vec;
 - qualidade do alinhamento semântico.
 
+## Versão final dos dicionários (`tables/dicionario_final/`)
+
+Resultados das Camadas 1 e 2 apresentados na dissertação, gerados por `notebooks/23_camadas1_2_dicionario_final.ipynb`: prevalências sob R1, R2 e R3 (Tabela 5.3), prevalências por legislatura (Figura 5.2), estrutura da agenda nacional e setorizada (Tabela 5.4 e Figura 5.3), tipos de agenda setorizada (Tabela 5.5), controle do tamanho do discurso (Tabela 5.14), regras e janelas (Tabela 5.15), versões do dicionário (Tabela 5.16), razões de chances da Camada 2 e termos mais frequentes por categoria (Tabela A.1).
+
 ## Análises complementares (`tables/analises_complementares/`)
 
 - `R3/`: prevalências sob R1, R2 e R3 com limiar fixo;

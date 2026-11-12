@@ -71,7 +71,7 @@ THEMES = {
     "environment_climate": {
         "label": "Environment and climate",
         "terms": {
-            "meio", "ambiente", "ambiental", "amazonia", "floresta",
+            "ambiente", "ambiental", "amazonia", "floresta",
             "florestas", "desmatamento", "clima", "climatica", "climatico",
             "sustentavel", "sustentabilidade", "biodiversidade", "indigena",
             "indigenas", "garimpo", "queimadas", "agua", "saneamento",
@@ -82,7 +82,7 @@ THEMES = {
         "terms": {
             "infraestrutura", "transporte", "transportes", "rodovia",
             "rodovias", "estrada", "estradas", "ferrovia", "ferrovias",
-            "porto", "portos", "aeroporto", "aeroportos", "energia",
+            "portos", "aeroporto", "aeroportos", "energia",
             "eletrica", "habitacao", "moradia", "saneamento", "internet",
             "telecomunicacoes", "obra", "obras",
         },
@@ -101,7 +101,7 @@ THEMES = {
         "label": "Federalism and municipalities",
         "terms": {
             "municipio", "municipios", "prefeito", "prefeitos", "prefeitura",
-            "prefeituras", "estado", "estados", "federacao", "federal",
+            "prefeituras", "estados", "federacao",
             "governador", "governadores", "regional", "regionais", "regiao",
             "regioes", "nordeste", "norte", "sul", "sudeste", "centro",
         },
@@ -111,7 +111,7 @@ THEMES = {
         "terms": {
             "democracia", "democratico", "democratica", "constituicao",
             "constitucional", "congresso", "camara", "senado", "parlamento",
-            "governo", "presidente", "presidencia", "republica", "eleicao",
+            "governo", "presidencia", "republica", "eleicao",
             "eleicoes", "voto", "impeachment", "stf", "supremo",
             "judiciario", "justica",
         },
@@ -131,7 +131,7 @@ THEMES = {
             "agricultura", "agricola", "agropecuaria", "agronegocio",
             "produtor", "produtores", "rural", "campo", "alimentos",
             "alimento", "comida", "fome", "pecuaria", "safra",
-            "assentamento", "reforma", "agraria",
+            "assentamento", "agraria",
         },
     },
 }

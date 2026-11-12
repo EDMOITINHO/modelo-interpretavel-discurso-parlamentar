@@ -14,6 +14,6 @@ ideological_divergence,max_anchors,15000
 adversarial_audit,window_tokens_each_side,12
 validation,target_per_group,150
 validation,random_seed,42
-national_themes,r3_fixed_threshold_per_10k_tokens,139.86
+national_themes,r3_fixed_threshold_per_10k_tokens,116.28
 national_themes,length_control,logit(legislature + log_tokens); marginal standardization
 ideological_divergence,baseline,label shuffling (one draw per legislature)

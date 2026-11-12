@@ -1,0 +1,4 @@
+﻿modelo,razao_de_chances,IC95_inf,IC95_sup
+sem controle,4.34,4.27,4.42
+com controle de comprimento,1.58,1.54,1.61
+com comprimento e legislatura,1.56,1.53,1.6

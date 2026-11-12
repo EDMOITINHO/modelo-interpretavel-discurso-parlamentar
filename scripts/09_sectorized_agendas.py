@@ -57,11 +57,11 @@ SECTORIZED_AGENDAS = {
     },
     "race_indigenous_minorities": {
         "negros", "negro", "racismo", "indigena", "indigenas", "quilombolas",
-        "quilombola", "lgbt", "deficiencia", "pessoa", "pessoas",
+        "quilombola", "lgbt", "deficiencia",
     },
     "religious_moral": {
         "religiao", "religioso", "religiosos", "igreja", "igrejas", "evangelicos",
-        "catolicos", "familia", "vida", "aborto",
+        "catolicos", "aborto",
     },
     "territorial_regional": {
         "municipio", "municipios", "prefeito", "prefeitos", "nordeste", "norte",

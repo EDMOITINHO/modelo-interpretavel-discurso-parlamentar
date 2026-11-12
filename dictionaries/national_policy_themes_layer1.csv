@@ -82,7 +82,6 @@ security_violence,homicidios
 security_violence,feminicidio
 security_violence,militar
 security_violence,militares
-environment_climate,meio
 environment_climate,ambiente
 environment_climate,ambiental
 environment_climate,amazonia
@@ -110,7 +109,6 @@ infrastructure_transport_housing,estrada
 infrastructure_transport_housing,estradas
 infrastructure_transport_housing,ferrovia
 infrastructure_transport_housing,ferrovias
-infrastructure_transport_housing,porto
 infrastructure_transport_housing,portos
 infrastructure_transport_housing,aeroporto
 infrastructure_transport_housing,aeroportos
@@ -150,10 +148,8 @@ federalism_municipalities,prefeito
 federalism_municipalities,prefeitos
 federalism_municipalities,prefeitura
 federalism_municipalities,prefeituras
-federalism_municipalities,estado
 federalism_municipalities,estados
 federalism_municipalities,federacao
-federalism_municipalities,federal
 federalism_municipalities,governador
 federalism_municipalities,governadores
 federalism_municipalities,regional
@@ -175,7 +171,6 @@ democracy_institutions,camara
 democracy_institutions,senado
 democracy_institutions,parlamento
 democracy_institutions,governo
-democracy_institutions,presidente
 democracy_institutions,presidencia
 democracy_institutions,republica
 democracy_institutions,eleicao
@@ -220,5 +215,4 @@ agriculture_food,fome
 agriculture_food,pecuaria
 agriculture_food,safra
 agriculture_food,assentamento
-agriculture_food,reforma
 agriculture_food,agraria

@@ -53,7 +53,8 @@ O corpus bruto completo não é versionado no GitHub. Os dados originais permane
 
 - `08_national_policy_themes.py`: identificação de agendas nacionais por dicionários lexicais.
 - `14_dictionary_robustness_check.py`: comparação das regras R1, R2 e R3 com limiar por categoria (análise de sensibilidade).
-- `notebooks/17_R3_limiar_fixo.ipynb`: regra R3 adotada na dissertação, com limiar fixo de 139,86 ocorrências por 10 mil tokens, comum a todas as categorias.
+- `notebooks/17_R3_limiar_fixo.ipynb`: regra R3 adotada na dissertação, com limiar fixo comum a todas as categorias.
+- `notebooks/23_camadas1_2_dicionario_final.ipynb`: resultados das Camadas 1 e 2 com a versão final dos dicionários (limiar fixo da R3 de 116,28 ocorrências por 10 mil tokens).
 - `notebooks/18_controle_tamanho_discurso.ipynb`: prevalências sob R2 ajustadas pelo tamanho do discurso (regressão logística com legislatura e logaritmo do número de tokens, padronização marginal).
 
 Nas análises longitudinais principais, a dissertação utiliza a **regra R2**, que exige pelo menos dois termos distintos da categoria ou três ocorrências totais no discurso.
@@ -127,7 +128,7 @@ Os parâmetros consolidados estão em `config/analysis_parameters.csv`.
 
 ## Resultados e figuras
 
-Os resultados agregados utilizados na dissertação estão em `results/tables/`; os resultados das análises complementares estão em `results/tables/analises_complementares/`. As figuras finais estão em `figures/`, acompanhadas de um índice que relaciona cada gráfico ao respectivo resultado tabular.
+Os resultados agregados estão em `results/tables/`; os resultados das Camadas 1 e 2 com a versão final dos dicionários estão em `results/tables/dicionario_final/`, e os das análises complementares, em `results/tables/analises_complementares/`. As figuras finais estão em `figures/`, acompanhadas de um índice que relaciona cada gráfico ao respectivo resultado tabular.
 
 ## Análises complementares
 
@@ -135,18 +136,21 @@ As verificações de robustez estão implementadas como notebooks do Google Cola
 
 | Notebook | Análise | Resultados |
 |---|---|---|
-| `17_R3_limiar_fixo.ipynb` | R3 com limiar fixo de 139,86 ocorrências por 10 mil tokens | `results/tables/analises_complementares/R3/` |
+| `17_R3_limiar_fixo.ipynb` | R3 com limiar fixo comum a todas as categorias | `results/tables/analises_complementares/R3/` |
 | `18_controle_tamanho_discurso.ipynb` | prevalências sob R2 ajustadas pelo tamanho do discurso | `results/tables/analises_complementares/controle_tamanho/` |
 | `19_camada2_versoes_dicionario.ipynb` | Camada 2 com três versões do dicionário nacional | `results/tables/analises_complementares/camada2/` |
 | `20_camada2_regras_e_janelas.ipynb` | Camada 2 sob R2 e janelas de 20 e 50 tokens | `results/tables/analises_complementares/camada2/` |
 | `21`, `21a`, `21b` | linha de base da divergência Esquerda–Direita | `results/tables/analises_complementares/linha_base_divergencia/` |
 | `22_saude_anual_razao_chances_termos_genericos.ipynb` | série anual de saúde, razão de chances da Camada 2, termos genéricos e frequência de termos institucionais | `results/tables/analises_complementares/outras/` |
+| `23_camadas1_2_dicionario_final.ipynb` | Camadas 1 e 2 com a versão final dos dicionários | `results/tables/dicionario_final/` |
+
+Os notebooks 17 a 20 e 22 utilizam a versão completa dos dicionários. A versão final, adotada na dissertação, não inclui termos de sentido genérico identificados na auditoria lexical: `meio`, `reforma`, `porto`, `federal`, `estado` e `presidente`, na Camada 1; `pessoa` e `pessoas` (raça, indígenas e minorias) e `vida` e `familia` (religião e moral), na Camada 2.
 
 Principais resultados:
 
 - o crescimento de segurança pública se mantém e se acentua após o controle do tamanho dos discursos (de 3,8 para 9,1 pontos percentuais), enquanto as quedas de educação, infraestrutura e agricultura decorrem em grande parte da redução do tamanho médio dos discursos;
 - a prevalência de saúde atinge 23,1% em 2020 e 24,9% em 2021;
-- a razão de chances da associação entre agenda nacional e setorizada é de 4,53 sem controle e de 1,57 com controle do tamanho dos discursos;
+- com a versão final dos dicionários, 86,8% dos discursos apresentam agenda nacional e 76,1% deles também contêm referências setorizadas; a razão de chances dessa associação é de 4,34 sem controle e de 1,58 com controle do tamanho dos discursos;
 - sem termos genéricos, raça, indígenas e minorias cai de 30,9% para 6,4%, e religião e moral, de 26,4% para 3,5%;
 - a divergência Esquerda–Direita supera a linha de base em todas as legislaturas, com excesso entre 0,018 e 0,032.
 
